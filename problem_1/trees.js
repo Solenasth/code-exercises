@@ -23,8 +23,6 @@ function getSortedPeople(test_input){
 
 function reasignPeople(input){
     let sorted = getSortedPeople(input); 
-    sorted
-    input
     return input.map((item) => {
        return (item > 0) ? 
          sorted.shift() : item 
