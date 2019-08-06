@@ -20,7 +20,7 @@ function step(input_string){
 function recursiveProcessing(target_string){
     while(regex.test(target_string)){
        target_string = step(target_string);
-        recursiveProcessing(target_string);
+        //recursiveProcessing(target_string);
     }
     return target_string;
 }
